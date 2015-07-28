@@ -30,6 +30,13 @@
      version-control
      slime
      themes-megapack
+     haskell
+     ansible
+     colors
+     javascript
+     html
+     racket
+     python
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -162,7 +169,6 @@ before layers configuration."
   "Configuration function.
  This function is called at the very end of Spacemacs initialization after
 layers configuration."
-  ;; Turn on line numbers
   (global-linum-mode)
 )
 
